@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepty</title>
+    <link rel="stylesheet" href="./res/css/menu.css">
+    <link rel="stylesheet" href="./res/css/index.css">
+    <link rel="stylesheet" href="./res/css/footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Recepty</div>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li class="close-menu"><a href="#" id="close-menu">&times;</a></li>
+                <li><a href="index.html">Domů</a></li>
+                <li class="dropdown">
+                    <a href="#">Sladké Recepty &#9662;</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Čokoládové dezerty</a></li>
+                        <li><a href="#">Ovocné koláče</a></li>
+                        <li><a href="#">Zmrzliny</a></li>
+                        <li><a href="babovka.html">Bábovka</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Slané Recepty &#9662;</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Těstoviny</a></li>
+                        <li><a href="#">Saláty</a></li>
+                        <li><a href="#">Polévky</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Vítejte na stránce s recepty</h1>
+            <p>Objevte lahodné recepty na sladká i slaná jídla.</p>
+        </section>
+
+        <section class="recipes">
+            <h2>Naše oblíbené recepty</h2>
+            <a href="cokoladovy-dort.html" class="recipe-card">
+                <h3>Čokoládový dort</h3>
+                <p>Sladký a lahodný čokoládový dort pro každou příležitost.</p>
+            </a>
+            <a href="spenatovy-quiche.html" class="recipe-card">
+                <h3>Špenátový quiche</h3>
+                <p>Chutný slaný koláč se špenátem a sýrem.</p>
+            </a>
+            <a href="jablecny-strudl.html" class="recipe-card">
+                <h3>Jablečný štrúdl</h3>
+                <p>Klasický štrúdl plný šťavnatých jablek a skořice.</p>
+            </a>
+            <a href="babovka.html" class="recipe-card">
+                <h3>Bábovka</h3>
+                <p>Klasická bábovka s rozinkami</p>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            &copy; 2024 Recepty.cz | Všechna práva vyhrazena
+        </div>
+    </footer>
+
+    <script src="./res/js/menu.js"></script>
+</body>
+</html>
