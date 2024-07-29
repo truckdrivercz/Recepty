@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recepty</title>
     <link rel="stylesheet" href="./res/css/menu.css">
-    <link rel="stylesheet" href="./res/css/index.css">
+    <link rel="stylesheet" href="./res/css/recept.css">
     <link rel="stylesheet" href="./res/css/footer.css">
+    <link rel="shortcut icon" href="./res/img/Nivová.jpg" type="image/x-icon">
+    <title>Nivová pomazánka</title>
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
             </div>
             <ul class="nav-links" id="nav-links">
                 <li class="close-menu"><a href="#" id="close-menu">&times;</a></li>
-                <li><a class="active" href="index.html">Domů</a></li>
+                <li><a href="index.html">Domů</a></li>
                 <li class="dropdown">
                     <a href="#">Sladké Recepty &#9662;</a>
                     <ul class="dropdown-content">
@@ -41,7 +42,7 @@
                     <a href="#">Pomazánky &#9662;</a>
                     <ul class="dropdown-content">
                         <li><a href="hermelinova-pomazanka.html">Hermelínová pomazánka</a></li>
-                        <li><a href="nivova-pomazanka.html">Nivová pomazánka</a></li>
+                        <li><a class="active" href="nivova-pomazanka.html">Nivová pomazánka</a></li>
                         <li><a href="pastikova-pomazanka.html">Paštiková pomazánka</a></li>
                     </ul>
                 </li>
@@ -50,29 +51,36 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h1>Vítejte na stránce s recepty</h1>
-            <p>Objevte lahodné recepty na sladká i slaná jídla.</p>
-        </section>
+        <section class="recipe-detail">
+            <h1>Nivová pomazánka</h1>
+            <img src="./res/img/Nivová.jpg" alt="Nivová pomazánka" class="recipe-image">
+            <h2>Věci</h2>
+            <ul class="decoration">
+                <li>Miska</li>
+                <li>Kráječ na vejce</li>
+                <li>Mixér (malý)</li>
+                <li>Vidlička (na promíchání)</li>
+            </ul>
+            <h2>Suroviny</h2>
+            <ul class="decoration">
+                <li>1x niva</li>
+                <li>180g lučinu</li>
+                <li>1 vejce velikosti L</li>
+                <li>pepř (podle chuti)</li>
+            </ul>
 
-        <section class="recipes">
-            <h2>Naše oblíbené recepty</h2>
-            <a href="cokoladovy-dort.html" class="recipe-card">
-                <h3>Čokoládový dort</h3>
-                <p>Sladký a lahodný čokoládový dort pro každou příležitost.</p>
-            </a>
-            <a href="spenatovy-quiche.html" class="recipe-card">
-                <h3>Špenátový quiche</h3>
-                <p>Chutný slaný koláč se špenátem a sýrem.</p>
-            </a>
-            <a href="jablecny-strudl.html" class="recipe-card">
-                <h3>Jablečný štrúdl</h3>
-                <p>Klasický štrúdl plný šťavnatých jablek a skořice.</p>
-            </a>
-            <a href="babovka.html" class="recipe-card">
-                <h3>Bábovka</h3>
-                <p>Klasická bábovka s rozinkami</p>
-            </a>
+            <h2>Postup</h2>
+            <ol class="decoration">
+                <li>Necháme vařit vajíčka a až začne vřít voda nastavíme 10 minut</li>
+                <li>Do misky dáme lučinu</li>
+                <li>Nakrájíme nivu na kostičku a rozdrtíme</li>
+                <li>Promícháme lučinu s nivou</li>
+                <li>Ochladíme a oloupeme vejce</li>
+                <li>Vezmeme si kráječ na vejce</li>
+                <li>Z vajce uděláme malé čtverečky</li>
+                <li>Opatrně promícháme</li>
+                <li>Ochutnáme a kdyžtak doplníme pepřem</li>
+            </ol>
         </section>
     </main>
 

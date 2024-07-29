@@ -19,6 +19,13 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: bold;
+}
+
+.logo a{
+    color: #00d4d4;
+    text-decoration: none;
+}
+li a.active{
     color: #00d4d4;
 }
 

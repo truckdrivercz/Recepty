@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recepty</title>
     <link rel="stylesheet" href="./res/css/menu.css">
-    <link rel="stylesheet" href="./res/css/index.css">
+    <link rel="stylesheet" href="./res/css/recept.css">
     <link rel="stylesheet" href="./res/css/footer.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -19,13 +19,13 @@
             </div>
             <ul class="nav-links" id="nav-links">
                 <li class="close-menu"><a href="#" id="close-menu">&times;</a></li>
-                <li><a class="active" href="index.html">Domů</a></li>
+                <li><a href="index.html">Domů</a></li>
                 <li class="dropdown">
                     <a href="#">Sladké Recepty &#9662;</a>
                     <ul class="dropdown-content">
                         <li><a href="babovka.html">Bábovka</a></li>
                         <li><a href="#">Čokoládové dezerty</a></li>
-                        <li><a href="jablecny-strudl.html">Jablečný štrůdl</a></li>
+                        <li><a class="active" href="jablecny-strudl.html">Jablečný štrůdl</a></li>
                         <li><a href="#">Ovocné koláče</a></li>
                     </ul>
                 </li>
@@ -50,29 +50,33 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h1>Vítejte na stránce s recepty</h1>
-            <p>Objevte lahodné recepty na sladká i slaná jídla.</p>
-        </section>
+        <section class="recipe-detail">
+            <h1>Jablečný štrůdl</h1>
+            <img src="./res/img/Štrůdl.jpg" alt="Jablečný štrůdl" class="recipe-image">
+            <h2>Suroviny</h2>
+            <ul class="decoration">
+                <li>1 a půl hrnku polohrubé mouky</li>
+                <li>1 hrnek cukru krystal</li>
+                <li>2 vejce velikosti L</li>
+                <li>1 prášek do pečiva</li>
+                <li>1 vanilkový cukr</li>
+                <li>1/2 mléka</li>
+                <li>1/2 slunečnicového oleje</li>
+                <li>rozinky</li>
+                <li>rum</li>
+                <li>kakao</li>
+            </ul>
 
-        <section class="recipes">
-            <h2>Naše oblíbené recepty</h2>
-            <a href="cokoladovy-dort.html" class="recipe-card">
-                <h3>Čokoládový dort</h3>
-                <p>Sladký a lahodný čokoládový dort pro každou příležitost.</p>
-            </a>
-            <a href="spenatovy-quiche.html" class="recipe-card">
-                <h3>Špenátový quiche</h3>
-                <p>Chutný slaný koláč se špenátem a sýrem.</p>
-            </a>
-            <a href="jablecny-strudl.html" class="recipe-card">
-                <h3>Jablečný štrúdl</h3>
-                <p>Klasický štrúdl plný šťavnatých jablek a skořice.</p>
-            </a>
-            <a href="babovka.html" class="recipe-card">
-                <h3>Bábovka</h3>
-                <p>Klasická bábovka s rozinkami</p>
-            </a>
+            <h2>Postup</h2>
+            <ol class="decoration">
+                <li>Smícháme sypké suroviny s výjimkou kakaa a promícháme.</li>
+                <li>Přidáme vejce, olej a mléko a promícháme.</li>
+                <li>Přidáme rozinky a rum a zamícháme je.</li>
+                <li>Formu vymažeme olejem a vysypeme moukou (hrubou).</li>
+                <li>Nalejeme polovinu těsta.</li>
+                <li>Do druhé poloviny přidáme kakao a přilejeme do formy.</li>
+                <li>Nastavíme troubu na 170 - 180° a pečeme 45 minut (podle velikosti bábovky a typu trouby)</li>
+            </ol>
         </section>
     </main>
 
